@@ -1,20 +1,30 @@
-# Python Fundamentals – Step 1
+##Python Fundamentals – Stage 1
 
-Small Python scripts and mini-projects I wrote to practice the basics of programming and data handling.
+This repository contains the work I completed for Stage 1 of my Data Science learning roadmap.
+It includes small Python scripts and mini-projects designed to practice core programming concepts before moving into data analysis with pandas.
 
-This repository contains my work from **Stage 1** of my data science learning plan:
-- Python syntax and control flow
-- Functions
-- Data structures (lists, dictionaries, sets)
-- Basic file I/O
-- Simple mini-projects
+The goal of this stage was to build a solid foundation in:
 
-## How to run
+Python syntax
+
+Functions and control flow
+
+Data structures
+
+File handling
+
+Input validation
+
+Small project design
+
+Git & GitHub workflow
+
+##How to Run
 
 Clone or download the repository, then run any script with:
 
-```bash
 python script_name.py
+
 
 Examples:
 
@@ -25,75 +35,103 @@ python budget_tracker.py
 
 All scripts use only the Python standard library.
 
-Files overview
-Loops
+##Files Overview
+#Loops
 
 loops_1_even_numbers.py
-Prints all even numbers from 1 to 50 (inclusive).
+Prints all even numbers from 1 to 50.
 
 loops_2_guess.py
-Simple number guessing game with up to 3 attempts.
+Simple number-guessing game with up to 3 attempts and input validation.
 
 loops_3_nested.py
-Prints a 10×10 multiplication table (1 to 10).
+Displays a 10×10 multiplication table.
 
-Functions
+#Functions
 
 functions_1_currency.py
-Converts Argentine pesos to USD at a given exchange rate.
+Converts Argentine pesos (ARS) to USD at a given exchange rate.
 
 functions_2_area.py
-Computes the area of a circle given its radius.
+Computes the area of a circle.
 
 functions_3_temperature.py
-Converts Celsius degrees to Fahrenheit with basic input validation.
+Converts Celsius to Fahrenheit with basic error handling.
 
-Data structures
+#Data Structures
 
 lists_1_basics.py
-Creates and modifies a list of cities, then shows the first three.
+Creates and manipulates a list of cities; demonstrates slicing.
 
 dicts_1_prices.py
 Stores product prices in a dictionary and computes the average price.
 
 sets_1_unique.py
-Shows how to use a set to get unique values from a list.
+Uses a set to extract unique elements from a list.
 
-Files and modules
+#File Handling & Modules
 
 files_1_read.py
-Writes a list of ITBA careers to a text file, then reads and prints them in uppercase.
+Writes a list of university careers to a text file and prints them in uppercase.
 
 files_2_write.py
-Asks the user for 5 movie names and saves them to 5_movies.txt.
+Asks the user for 5 movie names and writes them to 5_movies.txt.
 
 modules_1_random.py
 Reads movies from 5_movies.txt and prints one at random.
 
-Mini-projects
+#Mini-Projects
 
 word_counter.py
-Asks the user for a sentence and counts words, vowels and consonants.
+Takes a sentence and counts words, vowels, and consonants.
 
 temperature_logger.py
-Generates random temperatures for 10 days, writes them to temps.txt, then reads them and prints the average and maximum temperature.
+Generates 10 days of random temperatures, saves them to temps.txt,
+then reads the file to calculate average and maximum temperature.
 
 budget_tracker.py
-Interactive budget tracker: asks for categories and amounts until the user types quit, accumulates totals per category, and saves the summary to budget_tracker.csv.
+Interactive budget tracker:
 
-What I learned:
+Accepts categories and amounts from the user
 
-How to structure small Python programs using functions.
+Accumulates totals per category
 
-How to work with lists, dictionaries and sets.
+Ends when the user types "quit"
 
-How to read and write text files with with open(...).
+Saves results to budget_tracker.csv
 
-How to do basic input validation and handle simple errors.
+##What I Learned
 
-How to build small, self-contained scripts that can be reused later in bigger projects.
+Using Python for small, real programs
 
+Designing reusable functions
 
-You can add/remove lines depending on which files you actually keep.
+Working with lists, dictionaries, sets
 
----
+Validating user input and handling errors
+
+Reading from and writing to files (TXT and CSV)
+
+Using modules from the Python standard library
+
+Structuring small projects
+
+Basic Git workflow (init, add, commit, push)
+
+Publishing work on GitHub in a clean, professional format
+
+##Next Steps (Stage 2)
+
+I will now begin pandas and Exploratory Data Analysis (EDA), including:
+
+Data cleaning (missing values, duplicates, datatypes)
+
+joins/merges
+
+Descriptive statistics
+
+Visualizations with matplotlib and seaborn
+
+First portfolio-quality notebook project
+
+This next stage will have its own GitHub repository.
