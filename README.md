@@ -1,6 +1,6 @@
 ##Python Fundamentals – Stage 1
 
-This repository contains the work I completed for Stage 1 of my Data Science learning roadmap.
+This repository contains the work I completed for the first phase on my Data Engineering learning roadmap.
 It includes small Python scripts and mini-projects designed to practice core programming concepts before moving into data analysis with pandas.
 
 The goal of this stage was to build a solid foundation in:
